@@ -1,7 +1,7 @@
 mui.init({swipeBack: false
 ,gestureConfig: {tap:true,doubletap:true,longtap:true,hold:true,release:true}});
 
-var 标题栏1 = new 标题栏("标题栏1",null,标题栏1_右侧图标被单击,标题栏1_左侧图标被单击);
+var 标题栏1 = new 标题栏("标题栏1",null,标题栏1_右侧图标被单击,null);
 var 编辑框1 = new 编辑框("编辑框1",null,null,null,null,null);
 var 按钮组1 = new 按钮组("按钮组1",按钮组1_被单击);
 var 按钮1 = new 按钮("按钮1",按钮1_被单击,null,null);
@@ -133,11 +133,11 @@ function 标题栏1_右侧图标被单击(){
 
 }
 
-function 标题栏1_左侧图标被单击(){
 
-	窗口操作.切换窗口("index.html");
 
-}
+
+
+
 
 function 菜单1_菜单项被单击(菜单项标题){
 
